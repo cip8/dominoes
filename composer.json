@@ -1,0 +1,23 @@
+{
+    "name": "ciprian/dominoes",
+    "description": "Dominoes cli",
+    "type": "project",
+    "require": {
+        "php-ds/php-ds": "^1.2",
+        "symfony/console": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Domino\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ciprian Cimpan",
+            "email": "hello@ciprian.pro"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    }
+}
